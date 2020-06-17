@@ -1,2 +1,2 @@
 #!/bin/sh
-echo hello from pipeline
+echo hello from pipeline!
