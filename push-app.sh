@@ -1,2 +1,2 @@
 #!/bin/sh
-cf push -c "npm start" -m 80m demo-app $1
+cf push -c "npm start" -m 80m -n $1 demo-app

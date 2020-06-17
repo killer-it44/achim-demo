@@ -2,17 +2,20 @@
   "name": "demo-app",
   "version": "1.0.0",
   "description": "Application to demonstrate a pipeline using Achim",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "test": "node node_modules/jasmine/bin/jasmine.js **/*.spec.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.tools.sap/achim/demo-app.git"
+    "url": "https://github.com/LJ1001/achim-demo.git"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jasmine": "^3.5.0"
   }
 }
